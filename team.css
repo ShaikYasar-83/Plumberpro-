@@ -1,0 +1,24 @@
+/* Team Page */
+.team-card {
+    background: #fff;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-img {
+    width: 120px;          /* keep width and height same */
+    height: 120px;
+    border-radius: 50%;    /* this makes the image circular */
+    object-fit: cover;     /* ensures the image fills the circle without distortion */
+    border: 4px solid #007bff;
+  }
+  
+  
+  .team-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bff;
+  }
+  

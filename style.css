@@ -1,0 +1,41 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  img {
+    border-radius: 8px;
+    max-height: 180px;
+    object-fit: cover;
+  }
+  
+  .team-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #007bff;
+  }
+  
+  section {
+    scroll-margin-top: 100px;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 177.77%; /* 9:16 aspect ratio */
+    overflow: hidden;
+    background: #000;
+  }
+  
+  .vertical-video {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    transform: translateX(-50%);
+    object-fit: cover;
+    width: auto;
+  }
+  
